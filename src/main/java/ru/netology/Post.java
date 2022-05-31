@@ -6,7 +6,7 @@ public class Post {
     public String patronymic; // поле для отчества
     public String passport; // поле для паспорта
     public String phone; // поле для телефона
-    public String subscription; // поле согласия пользователя получать информацию о скидках в виде sms
+    public boolean subscription; // поле согласия пользователя получать информацию о скидках в виде sms
 
     FormDate birthday = new FormDate();
 
